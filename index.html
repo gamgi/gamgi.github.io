@@ -3,16 +3,66 @@
     <head>
         <title>gamgi.github.io</title>
         <style type="text/css">
+            @font-face {
+              font-family: 'OpenSans';
+              src: url('OpenSans-Regular.ttf'); /* IE9 Compat Modes */
+            }
+
+            body, html {
+                font-family: 'OpenSans', Fallback, sans-serif;
+                background-color: #224A46;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
             #mainframe {
+                border-radius: 10px;
                 width: 50%;
                 min-width: 4em;
-                font-family: Monospace;
+                margin: 0 auto;
+                color: #1C897D;
+                background-color: #192A29;
+                padding: 1em 1em;
+                box-sizing: border-box;
+                margin-top: 1em;
+            }
+            #mainframe a {
+                color: #236A62;
+            }
+            #mainframe h1 {
+                color: #0CB2A0;
+            }
+            #mainframe li {
+                list-style-type: square;
+            }
+            #footer {
+                padding: 1em 0;
+                border-radius: 10px;
+                color: #2D4571;
+                background-color: #1D232D;
+                width: 50%;
+                min-width: 4em;
+                margin: 0 auto;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            #footer a {
+                color: #2D4571;
             }
         </style>
         <body>
             <div id="mainframe">
                 <h1>Stuff</h1>
-                Blabla
+                <p>Random stuff and assorted colors.</p>
+                <p>
+                    <ul>
+                        <li><a href="./js-normal-mapping/">Js normal mapping</a></li>
+                    </ul>
+                </p>
+            </div>
+            <div id="footer">
+            <a href="http://github.com/gamgi">Github repos</a>
             </div>
         </body>
 </html>
